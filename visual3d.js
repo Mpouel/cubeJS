@@ -225,22 +225,22 @@ function update3DCubeFromState(stateString) {
                 cubelet.material[5].color.set(get3DColor('B', { x, y, z })); // back
  
                 // --- Up center ---
-                if (y === 1 && x === 0 && z === 0) addCenterSticker(cubelet, 2, "U.png", 0);
+                if (y === 1 && x === 0 && z === 0) addCenterSticker(cubelet, 2, "U.jpg", 0);
  
                 // --- Down center ---
-                if (y === -1 && x === 0 && z === 0) addCenterSticker(cubelet, 3, "D.png", 0);
+                if (y === -1 && x === 0 && z === 0) addCenterSticker(cubelet, 3, "D.jpg", 0);
  
                 // --- Front center ---
-                if (z === 1 && x === 0 && y === 0) addCenterSticker(cubelet, 4, "F.png", 0);
+                if (z === 1 && x === 0 && y === 0) addCenterSticker(cubelet, 4, "F.jpg", 0);
  
                 // --- Back center ---
-                if (z === -1 && x === 0 && y === 0) addCenterSticker(cubelet, 5, "B.png", 0);
+                if (z === -1 && x === 0 && y === 0) addCenterSticker(cubelet, 5, "B.jpg", 0);
  
                 // --- Right center ---
-                if (x === 1 && y === 0 && z === 0) addCenterSticker(cubelet, 0, "R.png", 0);
+                if (x === 1 && y === 0 && z === 0) addCenterSticker(cubelet, 0, "R.jpg", 0);
  
                 // --- Left center ---
-                if (x === -1 && y === 0 && z === 0) addCenterSticker(cubelet, 1, "L.png", 0);
+                if (x === -1 && y === 0 && z === 0) addCenterSticker(cubelet, 1, "L.jpg", 0);
  
                 if ([x, y, z].filter(v => v !== 0).length === 2) {
  
